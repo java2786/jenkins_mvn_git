@@ -2,6 +2,7 @@ package com.demo;
 
 import static org.junit.Assert.assertTrue;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 /**
@@ -16,5 +17,11 @@ public class AppTest
     public void shouldAnswerWithTrue()
     {
         assertTrue( true );
+    }
+    @Test
+    public void nameShouldBeSame()
+    {
+    	String name = "Arun";
+        Assert.assertSame( name, "Mark" );
     }
 }
