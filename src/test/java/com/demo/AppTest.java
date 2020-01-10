@@ -22,6 +22,6 @@ public class AppTest
     public void nameShouldBeSame()
     {
     	String name = "Arun";
-        Assert.assertSame( name, "Mark" );
+        Assert.assertSame( name, "Arun" );
     }
 }
